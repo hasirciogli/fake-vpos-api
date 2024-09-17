@@ -4,6 +4,6 @@ services:
   app:
     build: .
     ports:
-      - "6060:3000"
+      - "7894:3000"
     environment:
       - XHOST=http://localhost:6060
