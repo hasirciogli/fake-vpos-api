@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/clockbox:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/fake-vpos-api:latest
